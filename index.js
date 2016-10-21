@@ -1,4 +1,9 @@
 module.exports = {
-  "presets": ["es2015", "stage-1"],
-  "plugins": ["transform-flow-strip-types", "transform-runtime", "transform-decorators-legacy"]
+  "presets": ["es2015"],
+  "plugins": [
+    "transform-runtime",
+    "transform-flow-strip-types",
+    "transform-decorators-legacy",
+    "transform-async-to-generator"
+  ]
 }
